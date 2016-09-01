@@ -1,5 +1,8 @@
 # Perceptron
 
+A perceptron is a neural network consisting of a single neuron.
+This perceptron learns the behavior of simple OR and AND operations.
+
 This example is a solution to a simple intelligent systems homework question.
 I mainly just wanted to practice some object oriented design concepts I learned
 from <a href="https://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley-ebook/dp/B0096BYG7C#nav-subnav">Practical Object-Oriented Design in Ruby<a>.
@@ -32,4 +35,4 @@ Epoch     X1        X2        ExpectedY ActualY   Error     W1        W2
 4         0         1         1         1         0         0.500000  0.050000 
 ```
 
-This program also shows that xor is not linearly separable (the program runs forever on xor input because it's impossible for a single perceptron to learn this behavior).
+This program also shows that XOR is not linearly separable (the program runs forever on xor input because it's impossible for a single perceptron to learn this behavior).
