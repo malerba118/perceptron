@@ -1,7 +1,5 @@
 # Perceptron
 
-Usage: java Main <threshold> <learningRate> <weight1> <weight2> <operation>
-
 This example is a solution to a simple intelligent systems homework question.
 I mainly just wanted to practice some object oriented design concepts I learned
 from <a href="https://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley-ebook/dp/B0096BYG7C#nav-subnav">Practical Object-Oriented Design in Ruby<a>.
@@ -9,6 +7,8 @@ from <a href="https://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addis
 Example Run
 
 ```
+Usage: java Main <threshold> <learningRate> <weight1> <weight2> <operation>
+
 javac *.java
 
 java Main 0 .05 .5 -.1 OR
